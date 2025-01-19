@@ -12,41 +12,55 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 body {
-  background: #ece9e6; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #ffffff,
-    #ece9e6
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #ffffff,
-    #ece9e6
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #ece9e6;
 }
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important;
+  background-color: rgba(0, 123, 255, 0.1); /* Color de fondo al hacer hover */
+  border-radius: 4px;
+}
+
+.navbar-nav .dropdown-menu {
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+}
+
+.navbar-nav .dropdown-item:hover {
+  color: #fff !important;
+  background-color: rgba(0, 123, 255, 0.1);
+}
+.navbar-menu {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
 .row-foot-container {
-  background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #38ef7d,
-    #11998e
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #38ef7d,
-    #11998e
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
 }
 footer {
-  background: #11998e; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #38ef7d,
-    #11998e
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #38ef7d,
-    #11998e
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #11998e;
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  border-radius: 4px;
+}
+
+.custom-card {
+  border-radius: 12px;
+  padding: 3px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border: 4px solid white;
+  border-radius: 8px;
+}
+.card-body {
+  border: 4px solid white;
+  background: #eef2f3;
+}
+.row-foot-container {
+  border-radius: 4px;
 }
