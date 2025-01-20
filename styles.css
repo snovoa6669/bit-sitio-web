@@ -35,6 +35,32 @@ body {
   border-bottom-right-radius: 4px;
 }
 
+.modal-content {
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.736);
+}
+.modal-header {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+}
+.modal-body {
+  background: #b9dde5; /* Pregunta por que no quiere tomar este color */
+}
+.modal-footer {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+}
+
 .row-foot-container {
   background: #11998e;
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);
@@ -59,8 +85,22 @@ footer {
 }
 .card-body {
   border: 4px solid white;
-  background: #eef2f3;
+  background: #b9dde5;
 }
 .row-foot-container {
   border-radius: 4px;
+}
+.card-header {
+  background: #11998e; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #38ef7d,
+    #11998e
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e);
+  border: 4px solid white;
+}
+.container-formulario {
+  margin-top: 25.5%;
+  margin-bottom: 25.5%;
 }
